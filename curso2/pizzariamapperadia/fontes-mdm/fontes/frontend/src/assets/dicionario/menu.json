@@ -1,0 +1,84 @@
+{
+    "config":{ 
+        "modified": "2024-04-04T11:34:03.295364Z", 
+        "name": "Menu Principal", 
+        "type": "sandwich"
+    }, 
+    "itens": [ 
+        { 
+            "name": "CartaoConsumo", 
+            "routeUrl": "cartaoConsumo", 
+            "icon": "feather:box"
+        },
+        { 
+            "name": "Cliente", 
+            "routeUrl": "cliente", 
+            "icon": "feather:box"
+        },
+        { 
+            "name": "CadastroCliente", 
+            "routeUrl": "cadastroCliente", 
+            "icon": "feather:box"
+        },
+        { 
+            "name": "CartaoCliente", 
+            "routeUrl": "cartaoCliente", 
+            "icon": "feather:box"
+        },
+        { 
+            "name": "Categoria", 
+            "routeUrl": "categoria", 
+            "icon": "feather:box"
+        },
+        { 
+            "name": "Cozinha", 
+            "routeUrl": "cozinha", 
+            "icon": "feather:box"
+        },
+        { 
+            "name": "Endereco", 
+            "routeUrl": "endereco", 
+            "icon": "feather:box"
+        },
+        { 
+            "name": "Garcon", 
+            "routeUrl": "garcon", 
+            "icon": "feather:box"
+        },
+        { 
+            "name": "ItemPedido", 
+            "routeUrl": "itemPedido", 
+            "icon": "feather:box"
+        },
+        { 
+            "name": "Menu", 
+            "routeUrl": "menu", 
+            "icon": "feather:box"
+        },
+        { 
+            "name": "Opcional", 
+            "routeUrl": "opcional", 
+            "icon": "feather:box"
+        },
+        { 
+            "name": "Pagamento", 
+            "routeUrl": "pagamento", 
+            "icon": "feather:box"
+        },
+        { 
+            "name": "Pedido", 
+            "routeUrl": "pedido", 
+            "icon": "feather:box"
+        },
+        { 
+            "name": "Produto", 
+            "routeUrl": "produto", 
+            "icon": "feather:box"
+        },
+        { 
+            "name": "TipoPagamento", 
+            "routeUrl": "tipoPagamento", 
+            "icon": "feather:box"
+        }
+    ] 
+}

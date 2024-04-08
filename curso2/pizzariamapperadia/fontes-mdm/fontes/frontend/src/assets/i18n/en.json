@@ -1,0 +1,201 @@
+{
+    "base-resource-filter-component": { 
+        "field": "Field", 
+        "and": "and", 
+        "or": "or", 
+        "ok": "Ok", 
+        "cancel": "Cancel" 
+    }, 
+    "filter-period-component": { 
+        "field": "Field", 
+        "initialDate": "Initial Date", 
+        "finalDate": "Final Date", 
+        "dateFormatLabel": "MM/DD/YYYY", 
+        "ok": "Ok", 
+        "cancel": "Cancel", 
+        "operation": "Operation", 
+        "day": "Day", 
+        "month": "Month", 
+        "year": "Year", 
+        "week": "Week", 
+        "completeDate": "Complete Date", 
+        "equal": "Equal", 
+        "different": "Different", 
+        "afterThan": "After than...", 
+        "afterOrEqualThan": "After or Equal...", 
+        "beforeThan": "Before than...", 
+        "beforeOrEqualThan": "Before or Equal...", 
+        "between": "Between.." 
+    }, 
+    "filter-number-range-component": { 
+        "field": "Field", 
+        "initialNumber": "Initial Number", 
+        "finalNumber": "Final Number", 
+        "ok": "Ok", 
+        "cancel": "Cancel" 
+    }, 
+    "filter-text-component": { 
+        "operation": "Operation", 
+        "equal": "Equal", 
+        "different": "Different", 
+        "startWith": "Start With", 
+        "endWith": "End With", 
+        "contains": "Contains", 
+        "dontContains": "Don't Contains" 
+    }, 
+    "filter-number-component": { 
+        "operation": "Operation", 
+        "equal": "Equal", 
+        "different": "Different", 
+        "biggerThan": "Bigger than...", 
+        "biggerOrEqualThan": "Bigger or Equal...", 
+        "smallerThan": "Smaller than...", 
+        "smallerOrEqualThan": "Smaller or Equal...", 
+        "between": "Between..", 
+        "initialNumber": "Initial Number", 
+        "finalNumber": "Final Number" 
+    }, 
+    "filter-boolean-component": { 
+        "value": "Value", 
+        "true": "True", 
+        "false": "False" 
+    }, 
+    "selector-list": { 
+        "search": "Search", 
+        "selectedValues": "Selected values", 
+        "confirm": "Confirm", 
+        "cancel": "Cancel" 
+    }, 
+    "Variations": { 
+        "variationCode": "Variation code", 
+        "optionColumn": "Option Column", 
+        "product": "Product", 
+        "optionLine": "Option line" 
+    }, 
+    "Alerts": { 
+        "createErrorMessage": "Error while creating", 
+        "createSuccessMessage": "Create successful", 
+        "readErrorMessage": "Error while reading data", 
+        "updateErrorMessage": "Error while updating", 
+        "updateSuccessMessage": "Update successful", 
+        "deleteErrorMessage": "Error while deleting", 
+        "deleteSuccessMessage": "Delete successful", 
+        "defaultSuccessMessage": "Operation successful", 
+        "defaultErrorMessage": "Operation error", 
+        "rememberToSave": "Are you sure you want to leave? Your changes may not be saved."
+    },
+"CartaoConsumo": {
+        "CartaoConsumo": "consumption card",
+        "numeroCartao": "Card number",
+        "clientes": "Client"
+    },
+"Cliente": {
+        "Cliente": "Clients",
+        "nome": "Client name",
+        "telefone": "Phone client"
+    },
+"CadastroCliente": {
+        "CadastroCliente": "Client Register",
+        "nomeCliente": "Client name",
+        "sobrenomeCliente": "Cliente  last name",
+        "emailCliente": "Client Email",
+        "emailclienteConfirma": "Client Email Confirm",
+        "senhaCliente": "Password client",
+        "senhaclienteConfirma": "Client Password Confirm"
+    },
+"CartaoCliente": {
+        "CartaoCliente": "Client Card",
+        "numeroCartao": "card number",
+        "nomeImpresso": "printed name",
+        "anoValidade": "validity year",
+        "mesValidade": "month validity",
+        "diaValidade": "validity day",
+        "cvv": "CVV",
+        "pedidoCartao": "card request",
+        "cpfcnpj": "CPFCNPJ",
+        "tipoPagamento": "Payment Type ID"
+    },
+"Categoria": {
+        "Categoria": "Category",
+        "nomeCategoria": "Category Name",
+        "usaopcoesTamanho": "Use Size Options",
+        "usaopcoesBorda": "Use Edge Options",
+        "setor": "Sector"
+    },
+"Cozinha": {
+        "Cozinha": "Kitchen",
+        "nomePedido": "Order name",
+        "dataHora": "date and time",
+        "statusPedido": "order status",
+        "itemPedido": "ID Items Ordered"
+    },
+"Endereco": {
+        "Endereco": "Address",
+        "rua": "Road",
+        "bairro": "Neighborhood",
+        "cidade": "City",
+        "numeroMoradia": "House Number",
+        "cep": "CEP",
+        "complemento": "Complement",
+        "cadastroCliente": "Client Registration ID"
+    },
+"Garcon": {
+        "Garcon": "Garcon",
+        "nomeGarcon": "Name Garcon",
+        "login": "Login Garcon",
+        "senha": "Password Garcon",
+        "comissao": "Commission"
+    },
+"ItemPedido": {
+        "ItemPedido": "Order Item",
+        "nomePedido": "Name order",
+        "descricao": "Description",
+        "quantidadePedido": "Order Quantity",
+        "precoPedido": "Order price",
+        "numeroMesa": "Table number"
+    },
+"Menu": {
+        "Menu": "Menu",
+        "nomeMenu": "Name menu",
+        "descricaoMenu": "Description menu",
+        "preco": "Price",
+        "produto": "ID Product"
+    },
+"Opcional": {
+        "Opcional": "Optional",
+        "nomeOpcional": "Name optional ",
+        "tipoOpcional": "Type optional",
+        "maximaOpcionais": "Maximum options",
+        "produto": "ID Product",
+        "categoria": "ID Category"
+    },
+"Pagamento": {
+        "Pagamento": "Payment",
+        "valorPagamento": "Payment amount",
+        "datahoraPagamento": "Payment date and time",
+        "tipoPagamento": "Payment Type ID"
+    },
+"Pedido": {
+        "Pedido": "Order",
+        "pedidoCancelado": "Client name",
+        "datahoraPedido": "Phone client",
+        "pagamento": "Payment  ID",
+        "garcon": "ID Garcon",
+        "itemPedido": "ID Items Ordered",
+        "cartaoConsumo": "ID Card"
+    },
+"Produto": {
+        "Produto": "Product",
+        "nomeProduto": "Name Product ",
+        "codigo": "Phone client",
+        "descricaoProduto": "Phone client",
+        "precoProduto": "Phone client",
+        "imagem": "Phone client",
+        "categoria": "ID Category",
+        "opcional": "ID Optional "
+    },
+"TipoPagamento": {
+        "TipoPagamento": "Payment Type",
+        "tipoPagamento": "Payment Type"
+    }
+}

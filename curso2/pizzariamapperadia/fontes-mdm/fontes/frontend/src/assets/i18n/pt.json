@@ -1,0 +1,201 @@
+{
+  "base-resource-filter-component": { 
+    "field": "Campo", 
+    "and": "e", 
+    "or": "ou", 
+    "ok": "Ok", 
+    "cancel": "Cancelar" 
+  }, 
+  "filter-period-component": { 
+    "field": "Campo", 
+    "initialDate": "Data Inicial", 
+    "finalDate": "Data Final", 
+    "dateFormatLabel": "DD/MM/YYYY", 
+    "ok": "Ok", 
+    "cancel": "Cancelar", 
+    "operation": "Operação", 
+    "day": "Dia", 
+    "month": "Mês", 
+    "year": "Ano", 
+    "week": "Semana", 
+    "completeDate": "Data Completa", 
+    "equal": "Igual", 
+    "different": "Diferente", 
+    "afterThan": "Depois de...", 
+    "afterOrEqualThan": "Depois ou Igual a...", 
+    "beforeThan": "Antes de...", 
+    "beforeOrEqualThan": "Antes ou Igual a...", 
+    "between": "Entre.." 
+  }, 
+  "filter-number-range-component": { 
+    "field": "Campo", 
+    "initialNumber": "Número Inicial", 
+    "finalNumber": "Número Final", 
+    "ok": "Ok", 
+    "cancel": "Cancelar" 
+  }, 
+  "filter-text-component": { 
+    "operation": "Operação", 
+    "equal": "Igual", 
+    "different": "Diferente", 
+    "startWith": "Começa com", 
+    "endWith": "Termina com", 
+    "contains": "Contém", 
+    "dontContains": "Não Contém" 
+  }, 
+  "filter-number-component": { 
+    "operation": "Operação", 
+    "equal": "Igual", 
+    "different": "Diferente", 
+    "biggerThan": "Maior que...", 
+    "biggerOrEqualThan": "Maior ou Igual a...", 
+    "smallerThan": "Menor que...", 
+    "smallerOrEqualThan": "Menor ou Igual a...", 
+    "between": "Entre..", 
+    "initialNumber": "Número Inicial", 
+    "finalNumber": "Número Final" 
+  }, 
+  "filter-boolean-component": { 
+    "value": "Valor", 
+    "true": "Verdadeiro", 
+    "false": "Falso" 
+  }, 
+  "selector-list": { 
+    "search": "Pesquisar", 
+    "selectedValues": "Valores selecionados", 
+    "confirm": "Confirmar", 
+    "cancel": "Cancelar" 
+  }, 
+  "Variations": { 
+    "variationCode": "Código de Variação", 
+    "optionColumn": "Coluna da Opção", 
+    "product": "Produto", 
+    "optionLine": "Linha da Opção" 
+  }, 
+  "Alerts": { 
+    "createErrorMessage": "Erro ao criar", 
+    "createSuccessMessage": "Criação realizada com sucesso", 
+    "readErrorMessage": "Erro ao ler dados", 
+    "updateErrorMessage": "Erro ao atualizar", 
+    "updateSuccessMessage": "Atualização realizada com sucesso", 
+    "deleteErrorMessage": "Erro ao excluir", 
+    "deleteSuccessMessage": "Exclusão realizada com sucesso", 
+    "defaultSuccessMessage": "Operação realizada com sucesso", 
+    "defaultErrorMessage": "Erro na operação", 
+    "rememberToSave": "Tem certeza que deseja sair? Suas alterações podem não ser salvas." 
+  },
+"CartaoConsumo": {
+        "CartaoConsumo": "Cartao Consumo",
+        "numeroCartao": "Número do cartão",
+        "clientes": "Cliente"
+    },
+"Cliente": {
+        "Cliente": "Clientes",
+        "nome": "Nome do cliente",
+        "telefone": "Telefone do cliente"
+    },
+"CadastroCliente": {
+        "CadastroCliente": "Cadastro do cliente",
+        "nomeCliente": "Nome do cliente",
+        "sobrenomeCliente": "Sobrenome do cliente",
+        "emailCliente": "Email do Cliente",
+        "emailclienteConfirma": "Email do Cliente Confirma",
+        "senhaCliente": "Senha do Cliente",
+        "senhaclienteConfirma": "Senha do Cliente Confirma"
+    },
+"CartaoCliente": {
+        "CartaoCliente": "Cartão Cliente",
+        "numeroCartao": "Nome do cartão",
+        "nomeImpresso": " Nome Impresso",
+        "anoValidade": " Ano Validade",
+        "mesValidade": "Mes Validade",
+        "diaValidade": "Dia Validade",
+        "cvv": "CVV",
+        "pedidoCartao": "Pedido cartão",
+        "cpfcnpj": "CPFCNPJ",
+        "tipoPagamento": "ID Tipo Pagamento"
+    },
+"Categoria": {
+        "Categoria": "Categoria",
+        "nomeCategoria": "Nome da categoria",
+        "usaopcoesTamanho": "Usar Opções Tamanho",
+        "usaopcoesBorda": "Usar Opções Borda",
+        "setor": "Setor"
+    },
+"Cozinha": {
+        "Cozinha": "Cozinha",
+        "nomePedido": "Nome do pedido",
+        "dataHora": "Data e Hora",
+        "statusPedido": "Status do Pedido",
+        "itemPedido": "ID Itens Pedidos"
+    },
+"Endereco": {
+        "Endereco": "Endereco",
+        "rua": "Rua",
+        "bairro": "Bairro",
+        "cidade": "Cidade",
+        "numeroMoradia": "Numero da Moradia",
+        "cep": "CEP",
+        "complemento": "Complemento",
+        "cadastroCliente": "ID Cadastro Cliente"
+    },
+"Garcon": {
+        "Garcon": "Garçon",
+        "nomeGarcon": "Nome do garçon",
+        "login": "Login do Garçon",
+        "senha": "Senha do garçon",
+        "comissao": "Comissão"
+    },
+"ItemPedido": {
+        "ItemPedido": "Item Pedido",
+        "nomePedido": "Nome do pedido",
+        "descricao": "Descrição",
+        "quantidadePedido": "Quantidade de pedido",
+        "precoPedido": "Preço do pedido",
+        "numeroMesa": "Numero da mesa"
+    },
+"Menu": {
+        "Menu": "Menu",
+        "nomeMenu": "Nome do menu",
+        "descricaoMenu": "Descrição de menu",
+        "preco": " Preço",
+        "produto": "ID de Produto"
+    },
+"Opcional": {
+        "Opcional": "Opcional",
+        "nomeOpcional": "Nome do opcional",
+        "tipoOpcional": "Tipo do opcional",
+        "maximaOpcionais": "Maxima de opcionais",
+        "produto": " ID Produto",
+        "categoria": "ID Categoria"
+    },
+"Pagamento": {
+        "Pagamento": "Pagamento",
+        "valorPagamento": "Valor do pagamento",
+        "datahoraPagamento": "Data e hora de pagamento",
+        "tipoPagamento": "ID Tipo Pagamento"
+    },
+"Pedido": {
+        "Pedido": "Pedido",
+        "pedidoCancelado": " Pedido Cancelado",
+        "datahoraPedido": "Data e hora de pedido",
+        "pagamento": "ID Pagamento",
+        "garcon": "ID Garçon",
+        "itemPedido": "ID Itens Pedidos",
+        "cartaoConsumo": " ID Cartao"
+    },
+"Produto": {
+        "Produto": "Produto",
+        "nomeProduto": "Nome do Produto",
+        "codigo": "Código",
+        "descricaoProduto": "Descrição dos produtos",
+        "precoProduto": "Preço do Produto",
+        "imagem": "Imagem",
+        "categoria": "ID Categoria",
+        "opcional": "ID Opcional"
+    },
+"TipoPagamento": {
+        "TipoPagamento": "Tipo Pagamento",
+        "tipoPagamento": "Tipo Pagamento"
+    }
+}
